@@ -1,0 +1,23 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+.profile-avatar {
+    border-radius: 50%;
+    background-color: rgb(7, 23, 46);
+    object-fit: cover;
+}
+
+.profile-avatar > img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name-intro {
+    flex: 2;
+}

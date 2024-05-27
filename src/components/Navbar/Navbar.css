@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(104, 93, 93);
+}
+
+#nav-heading{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.nav-links{
+    padding: 10px;
+    margin: 10px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
