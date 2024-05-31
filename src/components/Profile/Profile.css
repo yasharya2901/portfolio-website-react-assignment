@@ -3,21 +3,55 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 20px;
+    background-color: #02001e;
+    height: 100%;
+    width: 100%;
 }
 
 
 .profile-avatar {
+    margin-top: 50px;
     border-radius: 50%;
     background-color: rgb(7, 23, 46);
     object-fit: cover;
+
 }
 
 .profile-avatar > img {
-    width: 100px;
+    width: 250px;
     border-radius: 50%;
+    /* height: 100px; */
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url('https://fonts.googleapis.com/css2?family=Righteous&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap') format('truetype');
+}
+@font-face {
+    font-family: 'Jaro';
+    src: url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap') format('truetype');
 }
 
 .name-intro {
-    flex: 2;
+    /* flex: 2; */
+    font-family: 'Righteous', sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 1.2rem;
+    color: #64ffda;
+}
+
+.name {
+    font-family: 'Jaro', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.profession {
+    font-family: 'Jaro', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 100px;
 }

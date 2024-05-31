@@ -1,15 +1,23 @@
+@font-face {
+    font-family: 'Jaro';
+    src: url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap') format('truetype');
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(104, 93, 93);
+    background-color: rgba(9, 9, 85, 0.4);
+    backdrop-filter: blur(10px); /* Blur the area behind the navbar */
 }
 
 #nav-heading{
     padding: 10px;
     margin: 10px;
     margin-left: 40px;
+    font-family: 'Jaro', sans-serif;
     font-weight: bold;
+    color: white;
 }
 
 .nav-links{
@@ -21,8 +29,9 @@
 }
 
 .nav-links a{
+    font-family: 'Jaro', sans-serif;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
     padding-left: 10px;
 }
