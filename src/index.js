@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './pages/HomePage';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Navbar from './components/Navbar';
+import AboutPage from './pages/AboutPage';
 
-import Socials from './components/Socials/Socials';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HomePage />
-    {/* <Socials profileLink={"https://www.linkedin.com/in/yash-arya-428933193/"} logo={faLinkedin} color="blue"/> */}
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

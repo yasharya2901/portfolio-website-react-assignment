@@ -8,8 +8,8 @@ function Navbar() {
                YASH ARYA
             </div>
             <div className="nav-links">
-                <a href="">Home</a>
-                <a href="">About</a>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
                 <a href="">Skills</a>
                 <a href="">Projects</a>
                 <a href="">Experience</a>
