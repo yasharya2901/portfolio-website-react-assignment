@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './Socials.css'
 
 function Socials({profileLink, logo, color}) {
@@ -7,7 +6,7 @@ function Socials({profileLink, logo, color}) {
         <>
             <div className={`social-logo ${color ? color : "black"}`}>
                 {/* linkedin logo with white without fill */}
-                <a href={profileLink}>
+                <a href={profileLink} target='_blank'>
                     <FontAwesomeIcon className='logo' icon={logo} size="2x" />
                     {/* <img className='logo' src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="linkedin" target="_blank" /> */}
                 </a>

@@ -6,6 +6,7 @@
     background-color: #02001e;
     height: 100%;
     width: 100%;
+    padding-top: 100px;
 }
 
 
@@ -54,4 +55,18 @@
     font-size: 1.5rem;
     color: white;
     margin-bottom: 100px;
+    display: flex;
+}
+
+.profession > span {
+    color: #64ff88;
+
+}
+.social-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-bottom: 50px;
+    
 }
