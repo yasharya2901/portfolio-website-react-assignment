@@ -35,7 +35,7 @@ const interests = [
     },
     {
         icon: faNetworkWired,
-        title: "Networking Engineering"
+        title: "Network Engineering"
     }
     
 ]
