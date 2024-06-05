@@ -37,6 +37,13 @@
     margin: 10px;
     padding-left: 30px;
     background-color: #112240;
+    transition: scale 0.3s ease;
+}
+
+.interest-card:hover {
+    scale: 1.05;
+    transition: scale 0.5s ease;
+
 }
 
 .interest-card > * {
