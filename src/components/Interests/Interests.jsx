@@ -1,5 +1,5 @@
 import { faJava, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
-import { faChartSimple, faCode, faCodeCompare, faFileCode } from '@fortawesome/free-solid-svg-icons'; // Import the faCode icon
+import { faChartSimple, faCode, faCodeCompare, faFileCode, faNetworkWired } from '@fortawesome/free-solid-svg-icons'; // Import the faCode icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Interests.css';
@@ -32,6 +32,10 @@ const interests = [
     {
         icon: faChartSimple,
         title: "Probability & Statistics"
+    },
+    {
+        icon: faNetworkWired,
+        title: "Networking Engineering"
     }
     
 ]

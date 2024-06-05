@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ContactPage.css'
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Socials from '../../components/Socials/Socials';
-import { faGithub, faInstagram, faLinkedin, faTelegram, faTelegramPlane, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faTelegram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function ContactPage() {
     return (
