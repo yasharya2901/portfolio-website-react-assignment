@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import HomePage from './pages/HomePage';
 import Navbar from './components/Navbar';
 import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 
 
 
@@ -17,6 +18,7 @@ root.render(
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   </React.StrictMode>
