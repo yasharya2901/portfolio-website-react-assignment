@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ContactPage.css'
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Socials from '../../components/Socials/Socials';
-import { faInstagram, faLinkedin, faTelegram, faTelegramPlane, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faLinkedin, faTelegram, faTelegramPlane, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function ContactPage() {
     return (
@@ -20,9 +20,9 @@ function ContactPage() {
                     </div>
                 </div>
                 <div className="socials">
-                    <Socials logo={faLinkedin} link='https://www.linkedin.com/in/yash-arya-2901/' />
-                    <Socials logo={faInstagram} link='https://www.instagram.com/yasharya2901/' />
-                    <Socials logo={faTwitter} link='https://www.x.com/yasharya2901/' />
+                    <Socials logo={faLinkedin} profileLink='https://www.linkedin.com/in/yash-arya-2901/' />
+                    <Socials logo={faGithub} profileLink='https://www.github.com/yasharya2901/' />
+                    <Socials logo={faTwitter} profileLink='https://www.x.com/yasharya2901/' />
                 </div>
             </div>
             <div className='contact-form'>
